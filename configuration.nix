@@ -8,10 +8,6 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  # Пока оставляем стабильное ядро по умолчанию.
-  # linuxPackages_latest сейчас тебе не особо нужен.
-
-
   # ============================================
   # Network
   # ============================================
@@ -64,7 +60,8 @@
       "networkmanager"
       "video"
       "input"
-    ];
+      "docker"
+  ];
 
     shell = pkgs.bash;
   };
