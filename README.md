@@ -1,1 +1,1 @@
-# NixOS-Main-repo
+# fuck flakes and home-manager
