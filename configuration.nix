@@ -142,7 +142,7 @@
 
 
     # --------------------------------------------
-    # Terminal
+    # Terminal, alactirry best terminal ever lollll
     # --------------------------------------------
 
     alacritty
