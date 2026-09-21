@@ -8,6 +8,21 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
+   # Mount point
+  fileSystems."/boot" = {
+    device = "/dev/nvme0n1p1";
+    fsType = "vfat";
+  }
+
+  fileSystems."/" = {
+    device = "/dev/nvme0n1p2";
+    fsType = "ext4";
+  };
+
+}
+
+
+
   # ============================================
   # Network
   # ============================================
